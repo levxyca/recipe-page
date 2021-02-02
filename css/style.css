@@ -1,0 +1,136 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px 10px;
+}
+
+@media (min-width: 960px) {
+    body {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #333333;
+}
+
+.material-icons {
+    color: #4F4F4F;
+}
+
+.orange {
+    color: #F2994A;
+}
+
+@media (min-width: 960px) {
+    .desktop {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+/* HEADER */
+.header h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 10px 10px 0px;
+}
+
+.header p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4F4F4F;
+    font-style: italic;
+    margin: 0px 10px 10px 0px;
+}
+
+.icons {
+    display: flex;
+    margin: 10px 10px 10px 0px;
+}
+
+.icons div p {
+    color: #333333;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media (min-width: 960px) {
+    .desk {
+        flex-direction: column;
+        min-width: 200px;
+    }
+}
+
+.dots {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.p-1 {
+    color:#BDBDBD;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.p {
+    margin-left: 5px;
+}
+
+/* ing e instru */
+.list-box li {
+    margin-bottom: 10px;
+}
+
+/* ingredients */
+
+.h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.h3 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+input {
+    border-radius: 5rem;
+}
+
+/* Instructions */
+.list li {
+    margin: 25px 0px;
+}
+
+.list span {
+    background: #F2994A;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* footer */
+.footer p {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 0px;
+    color: #A9A9A9;
+    text-align: center;
+}
